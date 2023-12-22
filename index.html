@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="/style-login.css">
+  <title>Plata facturi</title>
+</head>
+<body>
+  <!-- <img src="/svg/login.svg" alt=""> -->
+  <header>
+    <h1>PLATĂ FACTURI</h1>
+    <p>AUTENTIFICARE</p>
+  </header>
+  <form id="auth" action="">
+    <input class="username" type="text" name="username" placeholder="Introdu username..." autocomplete="off" required>
+    <div class="popUp username">
+      <p class="popUpText"></p>
+    </div>
+    <input class="password" type="password" name="password" placeholder="Introdu parola..." autocomplete="off" required>
+    <div class="popUp password">
+      <p class="popUpText">Nu ai introdus parola!</p>
+    </div>
+    <button>Login</button>
+  </form>
+  <script src="/script-login.js"></script>
+</body>
+</html>
